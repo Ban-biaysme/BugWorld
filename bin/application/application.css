@@ -1,0 +1,46 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+ #vbox1{
+ 	-fx-background-color: #e2e259;
+ 	-fx-background-position: center center;
+    -fx-padding: 5;
+    -fx-spacing: 5; 
+    -fx-border-color: #024b23;
+    -fx-border-width: 2px; 
+    -fx-border-radius: 10.0; 
+ } 
+ 
+  #vbox2{
+ 	-fx-background-color: #fdfefe;
+ 	-fx-background-position: center center;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-border-color: #024b23;
+    -fx-border-width: 2px; 
+    -fx-border-radius: 10.0; 
+ } 
+ 
+#fancytext {
+    -fx-font: 40px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 50%, red 80%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+   
+}
+
+#fancybtn, #fancybtn5, #fancybtn6, #fancybtn7,#fancybtn2, #fancybtn3, #fancybtn4{
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: Tahoma;
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-padding: 10 10 10 10;
+    -fx-font: bold 8pt Tahoma;
+}
+

@@ -1,0 +1,87 @@
+Project name : ANIMATED BUG WORLD IN GUI
+Author -> Biyas Banerjee
+
+ANIMATED BUG WORLD is a GUI based application build on JavaFX. Different types of library have used for 
+designing and animation purposes.
+ 
+ --> World contains different types of bugs
+ --> Small and Big plants
+ --> Stones as obstacle
+ --> Bugs can move randomly in world
+ --> World has a fixed height and width
+ 
+ 
+   Main Features of the this project is--> 
+  ============================================ 
+     -> Usage of JavaFX
+     -> Concept of Interface, Class and object
+     -> Super and sub class
+     -> Implementation of inheritance
+     -> object type casting
+     -> Java Encapsulation
+     -> Usage Scene, Pane and stage
+     -> Implementation of VBox and Groups
+     -> Implementation of exception handling
+     -> Implementation of Time line and KeyFrame.
+     -> Implementation of of CSS with JavaFX
+     -> Implementation of FadeTransition for Text animation effect
+   
+     
+ 
+ 								BUG WORLD OBJECT(INTERFACE)
+ 		-----------------------------------------------------------------------------
+ 		|										|									|
+  	  PLANT	(Class)							BUGS(Class)						 STONE(Class)
+  	   |										|									
+  	   |										|									
+  	   | 										|									
+  -------------				--------------------------------------------		
+  |			  |				|			|		    |		 		    |				  
+ Tree		Grass			Bee		   Ant		 Butterfly		    Lady bug	  
+ 
+ 
+ 
+ =====================================================================
+ As my designing purpose
+ 
+ At the top of the class structure  I have an Interface named--> BugWorldObject
+ BugWorldObject have the common methods that implemented in Bug and Plant class
+	
+ --> I have created a Array list of all BugWorldObject 
+ --> MainBugWorldUI is the Entry point of my program
+ 	
+ The following classes have implemented the BugWorldObject
+ 1) Bug
+ 2) Plant
+ 3) Stone
+ 
+ 1) Bug--> is the super class of
+ 				a)  Ant
+ 				b)  Bee
+ 				c)  Ladybug
+ 				d)  Butterfly
+	
+ 2)  PLANT --> is the super class of 
+					a) Tree
+					b) Grass
+					
+ 3) Stone  -->   implemented the BugWorldObject
+   
+  Main method --> MainBugWorldUI
+ ------------------------------------------------------	
+		-->  This program designed using JavaFX
+	 	-->  I have used different button using action listener for different methods
+	 	-->  Main method used for adding all the creatures
+	 	-->  User can add Plants, Bugs and Stones using buttons
+	 	-->  Bugs can move different direction randomly
+	 	-->  Bugs can not goes outside the Scene
+	 	-->  PressnHold button has implemented to move the bugs and stop the bugs
+	 	-->  Text animation applied 
+
+
+    
+
+ 
+   
+   
+	
