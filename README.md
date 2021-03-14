@@ -1,4 +1,8 @@
 # BugWorld
+
+project site is ready to be published at --  https://ban-biaysme.github.io/BugWorld/
+
+
 Bug world project has built on Javafx.
 This project show how the simple animation can created in java.
 Multiple classes and interface has used to built the project.
